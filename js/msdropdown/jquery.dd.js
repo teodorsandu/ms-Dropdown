@@ -456,7 +456,7 @@ function dd(element, settings) {
 			if (val == -1) { //auto
 				$("#"+childid).css({height: "auto", overflow: "auto"});
 			} else {				
-				$("#"+childid).css("height", val+"px");
+				//TEO: it is not needed, and cause too much height in firefox $("#"+childid).css("height", val+"px");
 			};
 			return false;
 		};
